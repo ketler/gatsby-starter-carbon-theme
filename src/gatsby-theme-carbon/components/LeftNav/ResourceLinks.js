@@ -3,16 +3,24 @@ import ResourceLinks from 'gatsby-theme-carbon/src/components/LeftNav/ResourceLi
 
 const links = [
   {
-    title: 'Github',
-    href: 'https://github.com/carbon-design-system/gatsby-theme-carbon',
+    title: 'Braiins OS+',
+    href: 'https://braiins.com/os/plus',
   },
   {
-    title: 'Carbon',
-    href: 'https://www.carbondesignsystem.com',
+    title: 'Telegram',
+    href: 'https://t.me/BraiinsOS',
   },
   {
-    title: 'Configuration guide',
-    href: '/guides/configuration',
+    title: 'Support Ticket',
+    href: 'https://help.slushpool.com/en/support/tickets/new',
+  },
+  {
+    title: 'Mining Insights',
+    href: 'https://insights.braiins.com',
+  },
+  {
+    title: 'Braiins Blog',
+    href: 'https://braiins.com/blogm',
   },
 ];
 

@@ -4,21 +4,17 @@ import Footer from 'gatsby-theme-carbon/src/components/Footer';
 const Content = ({ buildTime }) => (
   <>
     <p>
-      The <code>Content</code> component receives a <code>buildTime</code> prop
-      that to display your site's build time: {buildTime}
+      Braiins OS+ is an autotuning firmware that enables miners to customize what they do with their ASICs and achieve a more efficient W/TH output at any power consumption setting.
     </p>
     <p>
-      By importing the <strong>Footer</strong> component from
-      gatsby-theme-carbon, we can supply our own props.
-    </p>
-    <p>
-      The default export from a shadowed component will replace that component
-      in the theme.
-    </p>
-    <p>
-      <a href="https://www.gatsbyjs.org/docs/themes/api-reference/#component-shadowing">
-        More about component shadowing
+      <a href="https://braiins.com/os/plus" target="_blank">
+        Learn more
       </a>
+
+    </p>
+    <p></p>
+        <p>
+      Last updated: {buildTime}
     </p>
   </>
 );
@@ -37,6 +33,12 @@ const links = {
   ],
 };
 
-const CustomFooter = () => <Footer links={links} Content={Content} />;
+
+
+const FooterLogo = () => (
+  <img src="/images/braiins.svg" alt="" />
+);
+
+const CustomFooter = () => <Footer links={links} Content={Content} Logo={FooterLogo} />;
 
 export default CustomFooter;
